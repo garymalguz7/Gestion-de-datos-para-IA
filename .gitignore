@@ -1,1 +1,11 @@
+# Ignorar configuración local y secretos
+.env
+*.log
 
+# Python (común en IA)
+__pycache__/
+*.py[cod]
+venv/
+
+# Docker
+.docker/
